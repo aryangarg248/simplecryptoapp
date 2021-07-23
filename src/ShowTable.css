@@ -1,0 +1,53 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 31px;
+    color: #fff;
+}
+
+.coin-search {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-color: blueviolet
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.paginationBtn {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBtn a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid blueviolet;
+  color: black;
+  cursor: pointer;
+}
+.paginationBtn a:hover {
+  color: white;
+  background-color: rgba(16, 113, 223, 0.925)
+}
